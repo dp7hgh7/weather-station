@@ -1,0 +1,18 @@
+manifest:
+  version: "0.10"
+
+  defaults:
+    remote: github
+    revision: main
+
+  remotes:
+    - name: github
+      url-base: https://github.com
+
+  projects:
+    - name: zephyr
+      repo-path: dp7hgh7/zephyr.git
+      import: true
+
+  self:
+    path: app
